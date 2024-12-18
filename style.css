@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(./assets/calculator-colorful-paper-clips.jpg);
-    background-size: 700px 610px;
+    background-size: 1024px 768px;
 }
 
 /*Necessary style for achieving the structure of calculator using Grid */
