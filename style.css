@@ -1,0 +1,73 @@
+/*Making default padding and margin into 0 */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*Style for title*/
+.title{
+    color: white;
+    justify-content: center;
+}
+
+/*Style of container*/
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/calculator-colorful-paper-clips.jpg);
+    background-size: 700px 610px;
+}
+
+/*Necessary style for achieving the structure of calculator using Grid */
+.Calculator{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: rgb(129, 213, 247);
+    padding: 10px;   
+}
+
+/* Style for button*/
+button{
+    border-radius: 10px;
+    background-color: rgb(150, 201, 244);
+    font-weight:540;
+    font-size: medium;
+}
+
+.action{
+    background-color:rgb(63, 162, 246);
+}
+
+/*Style for class named as bu */
+.bu{
+    width: 480px;
+    height: 300px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-gap: 10px;
+    background-color: rgb(203, 220, 235);
+    padding: 10px;  
+}
+/* Style for equal button*/
+.equal{
+    background-color:rgb(15, 103, 177);
+    color: black;
+}
+
+/*Style for input field */
+input{
+    border-radius: 10px;
+    height:30px;
+    grid-column: span 5;
+    padding:30px;
+    text-align: right;
+    font-weight:500;
+    font-size: medium;
+}
